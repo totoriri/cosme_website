@@ -416,11 +416,17 @@ li {
   font-size: 24px;
 }
 
+.access__directions__list {
+  margin: 0;
+  padding: 0;
+}
+
 .access__directions__item {
   margin-top: 31px;
   font-weight: 500;
   letter-spacing: 0.8;
   line-height: 1.5;
+  list-style: none;
 }
 
 /* footer ----------------------------*/
