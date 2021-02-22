@@ -317,12 +317,16 @@ li {
   border-bottom: 1px dotted black;
   margin-top: 10px;
   padding-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
+  list-style: none;
 }
 
 .price__item:first-child {
   margin-top: 0px;
+}
+
+.price__item__list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .price__img {
