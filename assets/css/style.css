@@ -1,0 +1,437 @@
+/*
+********************************
+**共通
+**header
+**mainvsl
+**about
+**item
+**price
+**blog
+**access
+**footer
+********************************
+ */
+
+/* 共通 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  /* 1280px版のデザインから大体幅は1000pxぐらいかなって思ったけど、正しい幅の決め方は？ */
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.br::before {
+  content: "\A";
+  white-space: pre;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴ Pro",
+    "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic",
+    sans-serif;
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+date,
+li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.section__ttl--l {
+  font-size: 48px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 1.3rem;
+}
+
+.section__ttl--l:before {
+  content: "";
+  position: absolute;
+  left: 0%;
+  bottom: -21px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  background-color: black;
+}
+
+.section__ttl--s {
+  font-weight: 600;
+  margin-top: 19px;
+}
+
+/* **mainvsl------------------------- */
+
+.mainvsl {
+  background-image: url(/assets/images/karly-jones-9RgvK_0bntg-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  font-family: "Montserrat", sans-serif;
+  color: #ffff;
+}
+
+.mainvsl__txtbox {
+  margin-top: 360px;
+}
+
+.mainvsl__txt--l {
+  /* font-size: 4rem; */
+  font-size: 64px;
+  line-height: 1.25;
+}
+
+.mainvsl__txt--s {
+  font-size: 1.5rem;
+  line-height: 1.3;
+  margin-top: 23px;
+  letter-spacing: 1.2px;
+}
+
+.mainvsl__scroll {
+  font-size: 40px;
+  margin-top: 80px;
+  text-align: center;
+  animation: move-y 0.5s infinite alternate ease-in-out;
+}
+
+.mainvsl__scroll a {
+  color: #ffff;
+}
+
+@keyframes move-y {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(10px);
+  }
+}
+
+/* **header --------------------------*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 31px;
+}
+
+.header a {
+  color: #ffff;
+}
+
+.header__logo {
+  margin-left: 40px;
+}
+
+.header__logo span {
+  text-transform: uppercase;
+}
+
+.header__logo--l {
+  font-size: 20px;
+  /* おかしい↓ */
+  /* line-height: 10; */
+  line-height: calc(200 / 20);
+  letter-spacing: 1px;
+}
+
+.header__logo--s {
+  font-size: 12px;
+  letter-spacing: 0.6px;
+  margin-top: 8px;
+}
+
+.gnav__list {
+  display: flex;
+  padding-right: 27px;
+}
+
+.gnav__item {
+  margin-left: 64px;
+  font-weight: 400;
+}
+
+/* 参照元：https://mdesign-y.com/frontend/291/ */
+.gnav__item a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.gnav__item a::after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: #ffff;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform 0.3s;
+}
+.gnav__item a:hover::after {
+  transform: scale(1, 1);
+}
+
+/* **about---------------------------- */
+.about {
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: 146px; */
+  padding-top: 146px;
+}
+
+.about__txtbox {
+  width: 40%;
+  background-color: #f2f2f2;
+  border: 1px solid #707070;
+}
+
+.about__txtbox__inner {
+  width: 67%;
+  margin: 58px auto;
+}
+
+.about__concept--l {
+  margin-top: 43px;
+}
+
+.about__concept--s {
+  margin-top: 15px;
+  line-height: 2;
+  font-weight: 500;
+}
+
+.about__img {
+  width: 49%;
+  margin: auto 0;
+}
+
+/* **item ----------------------------*/
+
+.item {
+  /* margin-top: 147px; */
+  padding-top: 147px;
+}
+
+.item__container {
+  display: flex;
+  width: 100%;
+  margin-top: 23px;
+}
+
+.item__item {
+  display: flex;
+  flex-direction: column-reverse;
+  width: calc((100%-32px) / 3);
+  margin-right: 16px;
+}
+
+.item__item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.item__txt--l {
+  margin-top: 43px;
+  font-size: 24px;
+  letter-spacing: 0.48px;
+}
+
+.item__txt--s {
+  margin-top: 23px;
+  line-height: 1.75;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.item__figcaption {
+  margin-top: 27px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 0.32px;
+}
+
+/* **price--------------------------- */
+.price {
+  /* margin-top: 157px; */
+  padding-top: 157px;
+  position: relative;
+  height: 1130px;
+}
+
+.price__txtbox {
+  width: 49%;
+  border: 5px solid #a38787;
+  padding-top: 55px;
+  padding-bottom: 67px;
+  position: absolute;
+  z-index: 100;
+  background-color: #ffff;
+  opacity: 0.8;
+}
+
+.price__txtbox__inner {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.price .section__ttl--l {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.price .section__ttl--l:before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.price .section__ttl--s {
+  text-align: center;
+}
+
+.price__list {
+  margin-top: 81px;
+}
+
+.price__item {
+  border-bottom: 1px dotted black;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.price__item:first-child {
+  margin-top: 0px;
+}
+
+.price__img {
+  position: absolute;
+  top: 250px;
+  left: 341px;
+}
+
+/* **blog ----------------------------*/
+.blog {
+  background-color: #f2f2f2;
+  padding-top: 134px;
+  padding-bottom: 134px;
+  margin-top: 148px;
+}
+
+.blog__container {
+  display: flex;
+  margin-top: 62px;
+}
+
+.blog__item {
+  width: calc((100%-32px) / 3);
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.blog__item a {
+  color: black;
+}
+
+.blog__txt--flex {
+  display: flex;
+  margin-top: 29px;
+}
+
+.blog__item__date {
+  font-weight: 600;
+  margin-right: 16px;
+  letter-spacing: 0.16px;
+}
+
+.blog__item__category {
+  font-weight: 500;
+  letter-spacing: 0.16px;
+}
+
+.blog__item__ttl {
+  margin-top: 10px;
+  font-weight: 500;
+  letter-spacing: 0.16px;
+}
+
+/* **access ---------------------------*/
+.access {
+  /* margin-top: 150px; */
+  padding-top: 150px;
+}
+
+.access__container--upper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 93px;
+}
+
+.access__txtbox__item {
+  margin-top: 30px;
+}
+
+.access__txtbox__item:first-child {
+  margin-top: 0px;
+}
+
+.access__txt--l {
+  font-size: 24px;
+}
+
+.access__txt--s {
+  margin-top: 13px;
+  font-weight: 500;
+}
+
+.access__directions {
+  width: 72%;
+  margin: 0 auto;
+  margin-top: 152px;
+}
+
+.access__directions__ttl {
+  font-size: 24px;
+}
+
+.access__directions__item {
+  margin-top: 31px;
+  font-weight: 500;
+  letter-spacing: 0.8;
+  line-height: 1.5;
+}
+
+/* footer ----------------------------*/
+.footer {
+  background-color: #6f6565;
+  margin-top: 219px;
+  color: #ffffff;
+}
+
+.footer__txt {
+  font-size: 80px;
+  text-align: center;
+  padding: 69px 0px;
+}
