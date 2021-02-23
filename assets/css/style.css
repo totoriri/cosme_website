@@ -20,7 +20,6 @@
 }
 
 .wrapper {
-  /* 1280px版のデザインから大体幅は1000pxぐらいかなって思ったけど、正しい幅の決め方は？ */
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -195,7 +194,6 @@ li {
 .about {
   display: flex;
   justify-content: space-between;
-  /* margin-top: 146px; */
   padding-top: 146px;
   padding-bottom: 10px;
 }
@@ -229,7 +227,6 @@ li {
 /* **item ----------------------------*/
 
 .item {
-  /* margin-top: 147px; */
   padding-top: 147px;
 }
 
@@ -271,7 +268,6 @@ li {
 
 /* **price--------------------------- */
 .price {
-  /* margin-top: 157px; */
   padding-top: 157px;
   position: relative;
   height: 1130px;
@@ -380,7 +376,6 @@ li {
 
 /* **access ---------------------------*/
 .access {
-  /* margin-top: 150px; */
   padding-top: 150px;
 }
 
