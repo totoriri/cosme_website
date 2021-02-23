@@ -445,4 +445,8 @@ li {
 
 /***sp  --------------------------*/
 @media (max-width: 768px) {
+  /* mainvsl */
+  .mainvsl__txtbox {
+    margin-top: 169px;
+  }
 }
