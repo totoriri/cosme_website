@@ -148,10 +148,8 @@ li {
 
 .header__logo--l {
   font-size: 20px;
-  /* おかしい↓ */
-  /* line-height: 10; */
-  line-height: calc(200 / 20);
   letter-spacing: 1px;
+  font-weight: 700;
 }
 
 .header__logo--s {
@@ -199,6 +197,7 @@ li {
   justify-content: space-between;
   /* margin-top: 146px; */
   padding-top: 146px;
+  padding-bottom: 10px;
 }
 
 .about__txtbox {
@@ -265,10 +264,9 @@ li {
 }
 
 .item__figcaption {
-  margin-top: 27px;
+  margin-top: 25px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 0.32px;
 }
 
 /* **price--------------------------- */
