@@ -395,11 +395,14 @@ li {
 
 .access__txt--l {
   font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 
 .access__txt--s {
   margin-top: 13px;
-  font-weight: 500;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 .access__directions {
