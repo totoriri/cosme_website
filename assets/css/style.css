@@ -20,7 +20,6 @@
 }
 
 .wrapper {
-  /* 1280px版のデザインから大体幅は1000pxぐらいかなって思ったけど、正しい幅の決め方は？ */
   max-width: 1000px;
   margin: 0 auto;
 }
@@ -148,10 +147,8 @@ li {
 
 .header__logo--l {
   font-size: 20px;
-  /* おかしい↓ */
-  /* line-height: 10; */
-  line-height: calc(200 / 20);
   letter-spacing: 1px;
+  font-weight: 700;
 }
 
 .header__logo--s {
@@ -197,8 +194,8 @@ li {
 .about {
   display: flex;
   justify-content: space-between;
-  /* margin-top: 146px; */
   padding-top: 146px;
+  padding-bottom: 10px;
 }
 
 .about__txtbox {
@@ -230,7 +227,6 @@ li {
 /* **item ----------------------------*/
 
 .item {
-  /* margin-top: 147px; */
   padding-top: 147px;
 }
 
@@ -265,15 +261,13 @@ li {
 }
 
 .item__figcaption {
-  margin-top: 27px;
+  margin-top: 25px;
   font-weight: 700;
   font-size: 16px;
-  line-height: 0.32px;
 }
 
 /* **price--------------------------- */
 .price {
-  /* margin-top: 157px; */
   padding-top: 157px;
   position: relative;
   height: 1130px;
@@ -286,8 +280,7 @@ li {
   padding-bottom: 67px;
   position: absolute;
   z-index: 100;
-  background-color: #ffff;
-  opacity: 0.8;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .price__txtbox__inner {
@@ -317,12 +310,16 @@ li {
   border-bottom: 1px dotted black;
   margin-top: 10px;
   padding-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
+  list-style: none;
 }
 
 .price__item:first-child {
   margin-top: 0px;
+}
+
+.price__item__list {
+  display: flex;
+  justify-content: space-between;
 }
 
 .price__img {
@@ -379,7 +376,6 @@ li {
 
 /* **access ---------------------------*/
 .access {
-  /* margin-top: 150px; */
   padding-top: 150px;
 }
 
@@ -399,11 +395,14 @@ li {
 
 .access__txt--l {
   font-size: 24px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 
 .access__txt--s {
   margin-top: 13px;
-  font-weight: 500;
+  font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
+    "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 .access__directions {
@@ -416,11 +415,17 @@ li {
   font-size: 24px;
 }
 
+.access__directions__list {
+  margin: 0;
+  padding: 0;
+}
+
 .access__directions__item {
   margin-top: 31px;
   font-weight: 500;
   letter-spacing: 0.8;
   line-height: 1.5;
+  list-style: none;
 }
 
 /* footer ----------------------------*/
