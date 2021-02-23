@@ -286,8 +286,7 @@ li {
   padding-bottom: 67px;
   position: absolute;
   z-index: 100;
-  background-color: #ffff;
-  opacity: 0.8;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 .price__txtbox__inner {
