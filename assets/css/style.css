@@ -469,6 +469,16 @@ li {
     width: 100%;
   }
 
+  /* item */
+  .item__container {
+    flex-direction: column;
+  }
+
+  .item__item {
+    width: 100%;
+    margin-top: 40px;
+  }
+
   /* access */
   .access__container--upper {
     flex-direction: column;
