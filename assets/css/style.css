@@ -443,10 +443,34 @@ li {
   padding: 69px 0px;
 }
 
-/***sp  --------------------------*/
-@media (max-width: 768px) {
+/***スマホ  --------------------------*/
+@media screen and (max-width: 767px) {
   /* mainvsl */
   .mainvsl__txtbox {
     margin-top: 169px;
   }
+
+  /* about */
+  .about {
+    flex-direction: column;
+  }
+
+  .about__txtbox {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+  }
+
+  .about__txtbox__inner {
+    width: 100%;
+    margin: 58px auto;
+  }
+
+  .about__img {
+    width: 100%;
+  }
+}
+
+/***タブレット------------------------ */
+@media screen and (max-width: 1024px) {
 }
