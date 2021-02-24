@@ -409,8 +409,7 @@ li {
 
 .access__directions {
   width: 72%;
-  margin: 0 auto;
-  margin-top: 152px;
+  margin: 152px auto 0;
 }
 
 .access__directions__ttl {
@@ -468,6 +467,20 @@ li {
 
   .about__img {
     width: 100%;
+  }
+
+  /* access */
+  .access__container--upper {
+    flex-direction: column;
+  }
+
+  .access__googlemap {
+    margin-top: 180px;
+  }
+
+  .access__directions {
+    width: 100%;
+    margin: 152px 0;
   }
 }
 
