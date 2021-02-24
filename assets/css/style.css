@@ -457,7 +457,7 @@ li {
 }
 
 .footer__txt {
-  font-size: 80px;
+  font-size: 0.8rem;
   text-align: center;
   padding: 69px 0px;
 }
@@ -467,6 +467,14 @@ li {
   /* mainvsl */
   .mainvsl__txtbox {
     margin-top: 169px;
+  }
+
+  .mainvsl__txt--l {
+    font-size: 0.4rem;
+  }
+
+  .mainvsl__txt--s {
+    font-size: 0.16rem;
   }
 
   /* header(ハンバーガーメニュー) */
