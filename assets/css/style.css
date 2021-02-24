@@ -563,6 +563,14 @@ li {
     margin-top: 40px;
   }
 
+  .item__txt--s {
+    font-size: 0.12rem;
+  }
+
+  .item__figcaption {
+    font-size: 0.12rem;
+  }
+
   /* price */
   .price__txtbox {
     /* もうちょっとちゃんとwidthは考えたい */
