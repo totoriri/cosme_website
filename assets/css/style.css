@@ -464,6 +464,15 @@ li {
 
 /***スマホ  --------------------------*/
 @media screen and (max-width: 767px) {
+  /* 共通 */
+  .section__ttl--l {
+    font-size: 0.38rem;
+  }
+
+  .section__ttl--s {
+    font-size: 0.12rem;
+  }
+
   /* mainvsl */
   .mainvsl__txtbox {
     margin-top: 169px;
@@ -530,6 +539,14 @@ li {
   .about__txtbox__inner {
     width: 100%;
     margin: 58px auto;
+  }
+
+  .about__concept--l {
+    font-size: 0.2rem;
+  }
+
+  .about__concept--s {
+    font-size: 0.12rem;
   }
 
   .about__img {
