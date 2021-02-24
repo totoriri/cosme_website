@@ -606,6 +606,14 @@ li {
     flex-direction: column;
   }
 
+  .access__txt--l {
+    font-size: 0.18rem;
+  }
+
+  .access__txt--s {
+    font-size: 0.12rem;
+  }
+
   .access__googlemap {
     margin-top: 180px;
     width: 100%;
@@ -614,6 +622,10 @@ li {
   .access__directions {
     width: 100%;
     margin: 152px 0;
+  }
+
+  .access__directions__item {
+    font-size: 0.12rem;
   }
 
   /* footer */
