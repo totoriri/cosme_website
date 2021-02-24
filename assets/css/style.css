@@ -65,7 +65,7 @@ li {
   font-size: 0.48rem;
   position: relative;
   display: inline-block;
-  margin-bottom: 1.3rem;
+  margin-bottom: 34px;
 }
 
 .section__ttl--l:before {
@@ -365,6 +365,7 @@ li {
   margin-right: 16px;
   display: flex;
   flex-direction: column-reverse;
+  font-size: 0.16rem;
 }
 
 .blog__item a {
@@ -413,13 +414,14 @@ li {
 }
 
 .access__txt--l {
-  font-size: 24px;
+  font-size: 0.24rem;
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
 
 .access__txt--s {
   margin-top: 13px;
+  font-size: 0.16rem;
   font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium",
     "游ゴシック", "Yu Gothic", sans-serif;
 }
@@ -430,7 +432,7 @@ li {
 }
 
 .access__directions__ttl {
-  font-size: 24px;
+  font-size: 0.24rem;
 }
 
 .access__directions__list {
@@ -440,6 +442,7 @@ li {
 
 .access__directions__item {
   margin-top: 31px;
+  font-size: 0.16rem;
   font-weight: 500;
   letter-spacing: 0.8;
   line-height: 1.5;
