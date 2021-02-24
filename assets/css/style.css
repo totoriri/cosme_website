@@ -97,7 +97,7 @@ li {
 }
 
 .mainvsl__txtbox {
-  margin-top: 360px;
+  margin-top: 3.6rem;
 }
 
 .mainvsl__txt--l {
@@ -114,7 +114,7 @@ li {
 
 .mainvsl__scroll {
   font-size: 0.4rem;
-  margin-top: 80px;
+  margin-top: 0.8rem;
   text-align: center;
   animation: move-y 0.5s infinite alternate ease-in-out;
 }
@@ -137,7 +137,7 @@ li {
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 31px;
+  padding-top: 0.31rem;
 }
 
 .header a {
@@ -145,7 +145,7 @@ li {
 }
 
 .header__logo {
-  margin-left: 40px;
+  margin-left: 0.4rem;
 }
 
 .header__logo span {
@@ -474,6 +474,10 @@ li {
   }
 
   /* mainvsl */
+  .mainvsl {
+    height: 80vh;
+  }
+
   .mainvsl__txtbox {
     margin-top: 169px;
   }
@@ -484,6 +488,10 @@ li {
 
   .mainvsl__txt--s {
     font-size: 0.16rem;
+  }
+
+  .mainvsl__scroll {
+    margin-top: 2.3rem;
   }
 
   /* header(ハンバーガーメニュー) */
@@ -630,7 +638,7 @@ li {
 
   /* footer */
   .footer__txt {
-    font-size: 20px;
+    font-size: 0.4rem;
   }
 }
 
