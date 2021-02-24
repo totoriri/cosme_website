@@ -62,7 +62,7 @@ li {
 }
 
 .section__ttl--l {
-  font-size: 48px;
+  font-size: 0.48rem;
   position: relative;
   display: inline-block;
   margin-bottom: 1.3rem;
@@ -80,6 +80,7 @@ li {
 }
 
 .section__ttl--s {
+  font-size: 0.16rem;
   font-weight: 600;
   margin-top: 19px;
 }
@@ -225,10 +226,12 @@ li {
 }
 
 .about__concept--l {
+  font-size: 0.24rem;
   margin-top: 43px;
 }
 
 .about__concept--s {
+  font-size: 0.16rem;
   margin-top: 15px;
   line-height: 2;
   font-weight: 500;
