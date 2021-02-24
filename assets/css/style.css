@@ -338,6 +338,7 @@ li {
 .price__item__list {
   display: flex;
   justify-content: space-between;
+  font-size: 0.16rem;
 }
 
 .price__img {
