@@ -267,7 +267,7 @@ li {
 
 .item__txt--l {
   margin-top: 43px;
-  font-size: 24px;
+  font-size: 0.24rem;
   letter-spacing: 0.48px;
 }
 
@@ -275,13 +275,13 @@ li {
   margin-top: 23px;
   line-height: 1.75;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 0.16rem;
 }
 
 .item__figcaption {
   margin-top: 25px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 0.16rem;
 }
 
 /* **price--------------------------- */
