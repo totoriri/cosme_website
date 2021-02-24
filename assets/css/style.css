@@ -479,6 +479,19 @@ li {
     margin-top: 40px;
   }
 
+  /* blog */
+  .blog__container {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .blog__item {
+    /* ここ、微妙だなぁ。47%だと？ */
+    width: 47%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+
   /* access */
   .access__container--upper {
     flex-direction: column;
