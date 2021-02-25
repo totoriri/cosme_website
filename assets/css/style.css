@@ -64,7 +64,6 @@ li {
 .section__ttl--l {
   font-size: 0.48rem;
   position: relative;
-  display: inline-block;
   margin-bottom: 34px;
 }
 
@@ -73,7 +72,6 @@ li {
   position: absolute;
   left: 0%;
   bottom: -21px;
-  display: inline-block;
   width: 60px;
   height: 5px;
   background-color: black;
@@ -536,6 +534,7 @@ li {
   /* about */
   .about {
     flex-direction: column;
+    padding-top: 103px;
   }
 
   .about__txtbox {
@@ -546,7 +545,7 @@ li {
 
   .about__txtbox__inner {
     width: 100%;
-    margin: 58px auto;
+    margin: 0px auto;
   }
 
   .about__concept--l {
