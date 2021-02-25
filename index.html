@@ -261,16 +261,16 @@
   </footer>
   <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js'></script>
   <script>
-    $(function () {
-      $('a[href^="#"]').on("click", function () {
-        var speed = 600;
-        var href = $(this).attr("href");
-        var target = $(href == "#" || href == "" ? 'html' : href);
-        var position = target.offset().top;
-        $('body,html').animate({ scrollTop: position }, speed, 'swing');
-        return false;
-      });
-    });
+    // $(function () {
+    //   $('a[href^="#"]').on("click", function () {
+    //     var speed = 600;
+    //     var href = $(this).attr("href");
+    //     var target = $(href == "#" || href == "" ? 'html' : href);
+    //     var position = target.offset().top;
+    //     $('body,html').animate({ scrollTop: position }, speed, 'swing');
+    //     return false;
+    //   });
+    // });
   </script>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="./assets/js/index.js"></script>

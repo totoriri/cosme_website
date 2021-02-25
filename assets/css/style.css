@@ -502,7 +502,7 @@ li {
     content: "\f00d";
   }
 
-  .gnav {
+  .gnav__list {
     position: fixed;
     height: 100vh;
     width: 50%;
@@ -519,7 +519,7 @@ li {
     flex-direction: column;
   }
 
-  .gnav.active {
+  .gnav__list.active {
     right: 0;
   }
   .gnav__item {
