@@ -254,7 +254,7 @@ li {
 
 .item__item {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   width: calc((100%-32px) / 3);
   margin-right: 16px;
 }
