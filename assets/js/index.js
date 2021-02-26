@@ -31,5 +31,10 @@ $(document).ready(function () {
   $(".menu-btn").click(function () {
     $(".gnav__list").toggleClass("active");
     $(".menu-btn i").toggleClass("active");
+    if ($(".menu-btn i").hasClass("active")) {
+      $(".mainvsl__txt--l").addClass("isBlack");
+    } else {
+      $(".mainvsl__txt--l").removeClass("isBlack");
+    }
   });
 });

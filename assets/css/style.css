@@ -493,6 +493,10 @@ li {
     font-size: 0.4rem;
   }
 
+  .mainvsl__txt--l.isBlack {
+    color: #101010;
+  }
+
   .mainvsl__txt--s {
     font-size: 0.16rem;
   }
@@ -514,11 +518,10 @@ li {
   .gnav__list {
     position: fixed;
     height: 100vh;
-    width: 50%;
+    width: 81%;
     right: -100%;
     top: 0;
-    background: rgba(255, 255, 255, 0.349);
-    text-align: center;
+    background: #fffffff2;
     padding-top: 80px;
     transition: all 0.3s ease;
     z-index: 40;
@@ -531,8 +534,10 @@ li {
   .gnav__list.active {
     right: 0;
   }
+
   .gnav__item a {
     display: block;
+    color: #101010;
   }
   .gnav__item a {
     display: inline-block;
