@@ -137,7 +137,6 @@ li {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding-top: 0.31rem;
 }
 
 .header a {
@@ -146,6 +145,7 @@ li {
 
 .header__logo {
   margin-left: 0.4rem;
+  padding-top: 0.31rem;
 }
 
 .header__logo span {
@@ -167,6 +167,7 @@ li {
 .gnav__list {
   display: flex;
   padding-right: 27px;
+  padding-top: 0.31rem;
 }
 
 .gnav__item {
@@ -200,11 +201,16 @@ li {
 
 /* ハンバーガーメニュー */
 .humberger-btn {
-  color: #ffff;
-  font-size: 23px;
+  color: #101010;
+  font-size: 40px;
   cursor: pointer;
   /* pc時には非表示にするために */
   display: none;
+  width: 80px;
+  height: 80px;
+  padding-top: 20px;
+  background-color: #ffffff;
+  text-align: center;
 }
 
 /* **about---------------------------- */
