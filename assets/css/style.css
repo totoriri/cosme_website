@@ -133,6 +133,8 @@ li {
 /* **header --------------------------*/
 
 .header {
+  position: static;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   padding-top: 0.31rem;
@@ -197,13 +199,14 @@ li {
 }
 
 /* ハンバーガーメニュー */
-.menu-btn {
-  color: green;
+.humberger-btn {
+  color: #ffff;
   font-size: 23px;
   cursor: pointer;
+  /* pc時には非表示にするために */
   display: none;
-  /* z-index: 100; */
 }
+
 /* **about---------------------------- */
 .about {
   display: flex;
@@ -522,7 +525,7 @@ li {
   .gnav__list.active {
     right: 0;
   }
-  .gnav__item {
+  .gnav__item a {
     display: block;
   }
   .gnav__item a {
