@@ -486,7 +486,7 @@ li {
   }
 
   .mainvsl__txtbox {
-    margin-top: 169px;
+    margin-top: 85px;
   }
 
   .mainvsl__txt--l {
@@ -499,13 +499,18 @@ li {
 
   .mainvsl__txt--s {
     font-size: 0.16rem;
+    margin-top: 8px;
   }
 
   .mainvsl__scroll {
     margin-top: 2.3rem;
   }
 
-  /* header(ハンバーガーメニュー) */
+  /* header */
+  .header__logo {
+    margin-left: 5%;
+  }
+
   .menu-btn {
     display: block;
     z-index: 999;
@@ -582,7 +587,7 @@ li {
 
   .item__container {
     flex-direction: column;
-    margin-top: 32px;
+    margin-top: 37px;
   }
 
   .item__item {
@@ -630,6 +635,11 @@ li {
   }
 
   /* blog */
+  .blog {
+    padding-top: 85px;
+    padding-bottom: 97px;
+  }
+
   .blog__container {
     flex-wrap: wrap;
     justify-content: space-between;
@@ -644,8 +654,13 @@ li {
   }
 
   /* access */
+  .access {
+    padding-top: 97px;
+  }
+
   .access__container--upper {
     flex-direction: column;
+    margin-top: 44px;
   }
 
   .access__txt--l {
@@ -657,13 +672,13 @@ li {
   }
 
   .access__googlemap {
-    margin-top: 180px;
+    margin-top: 130px;
     width: 100%;
   }
 
   .access__directions {
     width: 100%;
-    margin: 152px 0;
+    margin: 46px 0;
   }
 
   .access__directions__item {
@@ -671,6 +686,9 @@ li {
   }
 
   /* footer */
+  .footer {
+    margin-top: 100px;
+  }
   .footer__txt {
     font-size: 0.4rem;
   }
