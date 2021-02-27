@@ -311,6 +311,7 @@ li {
 .price__txtbox__inner {
   width: 65%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .price .section__ttl--l {
