@@ -480,7 +480,7 @@ li {
     font-size: 0.12rem;
   }
 
-  /* mainvsl */
+  /*** mainvsl----------------------- */
   .mainvsl {
     height: 80vh;
   }
@@ -506,7 +506,7 @@ li {
     margin-top: 2.3rem;
   }
 
-  /* header */
+  /*** header*/
   .header__logo {
     margin-left: 5%;
   }
@@ -550,7 +550,7 @@ li {
     font-size: 25px;
   }
 
-  /* about */
+  /* **about*/
   .about {
     flex-direction: column;
     padding-top: 103px;
@@ -580,7 +580,7 @@ li {
     margin-top: 20px;
   }
 
-  /* item */
+  /***item*/
   .item {
     padding-bottom: 120px;
   }
@@ -612,7 +612,7 @@ li {
     margin-top: 12px;
   }
 
-  /* price */
+  /***price */
   .price {
     height: 500px;
   }
@@ -634,7 +634,7 @@ li {
     left: 0px;
   }
 
-  /* blog */
+  /***blog */
   .blog {
     padding-top: 85px;
     padding-bottom: 97px;
@@ -653,7 +653,7 @@ li {
     font-size: 0.12rem;
   }
 
-  /* access */
+  /***access */
   .access {
     padding-top: 97px;
   }
@@ -685,7 +685,7 @@ li {
     font-size: 0.12rem;
   }
 
-  /* footer */
+  /***footer */
   .footer {
     margin-top: 100px;
   }
