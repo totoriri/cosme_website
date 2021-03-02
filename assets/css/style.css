@@ -372,7 +372,7 @@ li {
   width: calc((100%-32px) / 3);
   margin-right: 16px;
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   font-size: 0.16rem;
 }
 
