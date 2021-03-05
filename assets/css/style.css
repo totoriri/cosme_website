@@ -292,20 +292,22 @@ li {
 }
 
 /* **price--------------------------- */
-.price {
+.price--pc {
   padding-top: 157px;
-  position: relative;
   height: 1130px;
   background-image: url("../images/jazmin-quaynor-470729-unsplash.jpg");
   background-repeat: no-repeat;
 }
 
-.price__txtbox {
+.price--sp {
+  display: none;
+}
+
+.price--pc__txtbox {
   width: 49%;
   border: 5px solid #a38787;
   padding-top: 55px;
   padding-bottom: 67px;
-  position: absolute;
   z-index: 75;
   background-color: rgba(255, 255, 255, 0.8);
 }
@@ -616,9 +618,14 @@ li {
   }
 
   /***price */
-  .price {
-    height: 500px;
+  .price--sp {
+    padding-top: 157px;
+    position: relative;
+    height: 1130px;
+    background-image: url("../images/jazmin-quaynor-470729-unsplash.jpg");
+    background-repeat: no-repeat;
   }
+
   .price__txtbox {
     /* もうちょっとちゃんとwidthは考えたい */
     width: 90%;
