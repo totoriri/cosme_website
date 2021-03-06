@@ -251,7 +251,7 @@ li {
 /* **item ----------------------------*/
 
 .item {
-  margin-top: 147px;
+  padding-top: 147px;
 }
 
 .item__container {
