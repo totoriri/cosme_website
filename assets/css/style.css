@@ -380,6 +380,9 @@ li {
   flex-direction: column;
   font-size: 0.16rem;
 }
+.blog__item:last-child {
+  margin-right: 0px;
+}
 
 .blog__item a {
   color: black;
