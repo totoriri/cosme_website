@@ -292,8 +292,7 @@ li {
 
 /* **price--------------------------- */
 .price--pc {
-  /* padding-top: 157px; */
-  margin-top: 40px;
+  margin-top: 180px;
   background-image: url("../images/jazmin-quaynor-470729-unsplash.jpg");
   background-repeat: no-repeat;
   background-clip: content-box;
