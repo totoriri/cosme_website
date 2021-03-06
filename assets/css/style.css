@@ -252,7 +252,7 @@ li {
 /* **item ----------------------------*/
 
 .item {
-  padding-top: 147px;
+  margin-top: 147px;
 }
 
 .item__container {
