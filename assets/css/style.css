@@ -293,9 +293,13 @@ li {
 
 /* **price--------------------------- */
 .price--pc {
-  padding-top: 157px;
+  /* padding-top: 157px; */
+  margin-top: 40px;
   background-image: url("../images/jazmin-quaynor-470729-unsplash.jpg");
   background-repeat: no-repeat;
+  background-clip: content-box;
+  height: 884px;
+  background-position: top 93px right 0px;
 }
 
 .price--pc__txtbox {
