@@ -215,8 +215,7 @@ li {
 .about {
   display: flex;
   justify-content: space-between;
-  padding-top: 146px;
-  padding-bottom: 10px;
+  margin-top: 146px;
 }
 
 .about__txtbox {
@@ -250,7 +249,7 @@ li {
 /* **item ----------------------------*/
 
 .item {
-  padding-top: 147px;
+  margin-top: 147px;
 }
 
 .item__container {
@@ -405,7 +404,7 @@ li {
 
 /* **access ---------------------------*/
 .access {
-  padding-top: 150px;
+  margin-top: 150px;
 }
 
 .access__container--upper {
@@ -555,7 +554,7 @@ li {
   /* **about*/
   .about {
     flex-direction: column;
-    padding-top: 103px;
+    margin-top: 103px;
   }
 
   .about__txtbox {
@@ -583,10 +582,6 @@ li {
   }
 
   /***item*/
-  .item {
-    padding-bottom: 120px;
-  }
-
   .item__container {
     flex-direction: column;
     margin-top: 37px;
@@ -624,8 +619,9 @@ li {
   }
 
   .price--sp {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    margin-top: 120px;
+    padding-top: 48px;
+    padding-bottom: 48px;
     background-size: cover;
     background-position: center center;
     background-image: url("../images/jazmin-quaynor-470729-unsplash.jpg");
@@ -673,7 +669,7 @@ li {
 
   /***access */
   .access {
-    padding-top: 97px;
+    margin-top: 97px;
   }
 
   .access__container--upper {
