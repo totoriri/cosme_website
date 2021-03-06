@@ -1,4 +1,15 @@
 $(document).ready(function () {
+  $(window).on("load resize", function () {
+    var w = $(window).width();
+    var x = 768;
+    if (w < x) {
+      //画面サイズが768px未満のときの処理
+      $("#price-link").attr("href", "#price--sp");
+    } else {
+      //それ以外のときの処理
+      $("#price-link").attr("href", "#price--pc");
+    }
+  });
   $(window).scroll(function () {
     // sticky navbar on scroll script
     if (this.scrollY > 20) {
