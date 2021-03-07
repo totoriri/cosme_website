@@ -142,8 +142,8 @@ li {
 }
 
 .header__logo {
-  margin-left: 4rem;
-  padding-top: 3.1rem;
+  margin-left: 40px;
+  margin-top: 31px;
 }
 
 .header__logo span {
@@ -164,8 +164,8 @@ li {
 
 .gnav__list {
   display: flex;
-  padding-right: 27px;
-  padding-top: 3.1rem;
+  margin-right: 27px;
+  margin-top: 31px;
 }
 
 .gnav__item {
