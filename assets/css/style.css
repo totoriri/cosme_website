@@ -391,6 +391,7 @@ li {
 }
 
 .blog__item__category {
+  color: #4d4d4d;
   font-weight: 500;
   letter-spacing: 0.16px;
 }
