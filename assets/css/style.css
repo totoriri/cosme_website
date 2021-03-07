@@ -54,6 +54,7 @@ h1,
 h2,
 h3,
 date,
+dt,
 li {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
@@ -423,8 +424,6 @@ li {
 
 .access__txt--l {
   font-size: 2.4rem;
-  font-weight: 700;
-  font-family: "Montserrat", sans-serif;
 }
 
 .access__txt--s {
