@@ -203,7 +203,6 @@ li {
   color: #101010;
   font-size: 40px;
   cursor: pointer;
-  /* pc時には非表示にするために */
   display: none;
   width: 80px;
   height: 80px;
