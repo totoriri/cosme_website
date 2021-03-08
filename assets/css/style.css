@@ -165,8 +165,8 @@ li {
 
 .gnav__list {
   display: flex;
-  margin-right: 27px;
-  margin-top: 31px;
+  padding-right: 27px;
+  padding-top: 31px;
 }
 
 .gnav__item {
