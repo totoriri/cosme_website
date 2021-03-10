@@ -707,6 +707,10 @@ li {
   }
 }
 
-/***タブレット------------------------ */
-@media screen and (max-width: 1024px) {
+/***画面サイズ1004px以下------------------------ */
+@media screen and (max-width: 1004px) {
+  .wrapper {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
 }
