@@ -88,7 +88,7 @@ li {
   background-image: url(/assets/images/karly-jones-9RgvK_0bntg-unsplash.jpg);
   background-size: cover;
   background-position: center center;
-  height: 100vh;
+  min-height: 100vh;
   font-family: "Montserrat", sans-serif;
   color: #ffff;
 }
@@ -112,6 +112,7 @@ li {
 .mainvsl__scroll {
   font-size: 4rem;
   margin-top: 80px;
+  padding-bottom: 40px;
   text-align: center;
   animation: move-y 0.5s infinite alternate ease-in-out;
 }
